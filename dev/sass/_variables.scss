@@ -1,4 +1,71 @@
-$mainColor: #333;
-$fontFamily: Helvetica, Arial, sans-serif;
-$linkColor: #699;
-$bgColor: #f8f8f8;
+@font-face {
+    font-family: "MSansBold";
+    src: url("../fonts/MuseoSansBold/MuseoSansBold.eot");
+    src: url("../fonts/MuseoSansBold/MuseoSansBold.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MuseoSansBold/MuseoSansBold.woff") format("woff"),
+    url("../fonts/MuseoSansBold/MuseoSansBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "MSansLight";
+    src: url("../fonts/MuseoSansLight/MuseoSansLight.eot");
+    src: url("../fonts/MuseoSansLight/MuseoSansLight.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MuseoSansLight/MuseoSansLight.woff") format("woff"),
+    url("../fonts/MuseoSansLight/MuseoSansLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "MSansMedium";
+    src: url("../fonts/MuseoSansMedium/MuseoSansMedium.eot");
+    src: url("../fonts/MuseoSansMedium/MuseoSansMedium.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/MuseoSansMedium/MuseoSansMedium.woff") format("woff"),
+    url("../fonts/MuseoSansMedium/MuseoSansMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+$mainFont: 'MSansLight';
+$mediumFont: "MSansMedium";
+$boldFont: "MSansBold";
+
+.container {
+	max-width: 1180px;
+	margin: auto;
+	padding: 0 20px;
+}
+
+.btn-blue {
+    transition: all .2s ease-in-out;
+    width: 210px;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 38px;
+    background: rgba(1,90,156,.66);
+    border: 1px solid transparent;
+    &:hover {
+        background: transparent;
+        border-color: #fff;
+    }
+}
+
+.btn-white {
+    transition: all .2s ease-in-out;
+    width: 210px;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 38px;
+    border: 1px solid #fff;
+    &:hover {
+        background: rgba(1,90,156,.66);
+        border-color: transparent;
+    }
+}
+

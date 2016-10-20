@@ -6,8 +6,8 @@ html(lang="ru")
 		meta(name="viewport", content="width=device-width, initial-scale=1")
 		link(rel="stylesheet", href="css/style.min.css")
 		title Document
-	
-	body
+	block vars
+	body(class='#{bodyClass}')
 		.all-wrapper
 			include _header
 

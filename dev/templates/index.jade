@@ -1,6 +1,87 @@
 extends _layout
+block vars
+	- var bodyClass = 'home';
 block content
 	main.main-content.cf(role="main")
+		section.top_block
+			.video-overlay
+			.top_block__content
+				.container
+					h1 Innovative solutions <br>in the financial markets for those,<br>who know the value of money
+					a.trading.btn-blue(href="#") Open trading account
+					a.demo.btn-white(href="#") Open demo account
+		section.choose-us
+			.container
+				h2 Over hundreds of thousands of customers have chosen us as their main broker
+				p All services of FGMarkets are based on the latest technology and meet the highest standards of professional market participants. Comfort and security of financial transactions are our main priorities
+				form
+					input(type="text" placeholder="777 777 777")
+					input(type="submit" value="Call me")
+		section.ideal
+			.container
+				h2 Ideal job options<br>for both: beginners and professionals
+				ul.ideal__list
+					li
+						div
+							img(src="img/ideal1.png", alt="")
+							p.title For beginners
+							.descr Introductory live trading account allows to try your own hand at Forex and / or start trading on small amounts in real market conditions without risks.
+						a.open-acc.btn-blue(href="#") Open trading account
+					li
+						div
+							img(src="img/ideal2.png", alt="")
+							p.title Advanced traders
+							.descr
+								| Direct ECN-DMA is an ideal solution for advanced traders, three key benefits of which are:
+								ul
+									li The best price on the basis of Best Bid Ask due to absolutely transparent pricing;
+									li Reliable method of direct execution of orders ECN - DMA bypassing a broker;
+									li High speed of execution of orders - 150 millisecond.
+						a.open-acc.btn-blue(href="#") Open trading account
+					li
+						div
+							img(src="img/ideal3.png", alt="")
+							p.title Top traders
+							.descr Service «Premium Customer Care» is intended for advanced top traders. Help is provided by professional analysts and consultants.
+						a.open-acc.btn-blue(href="#") Open trading account
+		section.stats
+			.container
+				h2 The most advanced online broker<br>on the world market
+				p.subheading Using of the latest technologies contributes to the realization of the basic concepts of FGMarkets - affordable and quality services for the access to financial markets
+				ul.stats_list
+					li
+						.inner
+							.heading 95
+								span %
+							p Average profitability for 2014
+					li
+						.inner
+							.heading 0,15
+								span sec
+							p Average time of order execution
+					li
+						.inner
+							.heading 92
+								span application
+							p Average number of withdrawals per day
+					li
+						.inner
+							.heading 85
+								span people
+							p Professional experts in our team
+					li
+						.inner
+							.heading 92
+								span %
+							p Of people become our clients after first try
+					li
+						.inner
+							.heading 1
+								span ml of dollars
+							p Average profitability of our clients for the last year
+				a.btn-blue.trade(href="#") Open trading account
+				a.btn-white.demo(href="#") Open demo account
+
 		
 
 

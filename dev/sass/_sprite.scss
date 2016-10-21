@@ -8,11 +8,24 @@ SCSS variables are information about icon's compiled state, stored under its ori
 The large array-like variables contain all information about a single icon
 $icon-home: x y offset_x offset_y width height total_width total_height image_path;
 */
-$fb: 50px 18px -50px -18px 11px 20px 75px 46px '../img/sprite.png';
-$inst: 0px 27px 0px -27px 20px 19px 75px 46px '../img/sprite.png';
-$twit: 23px 0px -23px 0px 23px 18px 75px 46px '../img/sprite.png';
-$vk: 50px 0px -50px 0px 25px 14px 75px 46px '../img/sprite.png';
-$youtube: 0px 0px 0px 0px 19px 23px 75px 46px '../img/sprite.png';
+$about-email: 0px 33px 0px -33px 22px 21px 132px 99px '../img/sprite.png';
+$about-phone: 0px 0px 0px 0px 30px 29px 132px 99px '../img/sprite.png';
+$fb-about-hover: 107px 42px -107px -42px 12px 20px 132px 99px '../img/sprite.png';
+$fb-about: 107px 18px -107px -18px 12px 20px 132px 99px '../img/sprite.png';
+$fb: 107px 66px -107px -66px 11px 20px 132px 99px '../img/sprite.png';
+$inst-about-hover: 25px 80px -25px -80px 21px 19px 132px 99px '../img/sprite.png';
+$inst-about: 0px 80px 0px -80px 21px 19px 132px 99px '../img/sprite.png';
+$inst: 50px 80px -50px -80px 20px 19px 132px 99px '../img/sprite.png';
+$loc: 34px 0px -34px 0px 22px 28px 132px 99px '../img/sprite.png';
+$twit-about-hover: 26px 33px -26px -33px 24px 18px 132px 99px '../img/sprite.png';
+$twit-about: 0px 58px 0px -58px 24px 18px 132px 99px '../img/sprite.png';
+$twit: 28px 58px -28px -58px 23px 18px 132px 99px '../img/sprite.png';
+$vk-about-hover: 74px 80px -74px -80px 26px 14px 132px 99px '../img/sprite.png';
+$vk-about: 55px 58px -55px -58px 26px 14px 132px 99px '../img/sprite.png';
+$vk: 107px 0px -107px 0px 25px 14px 132px 99px '../img/sprite.png';
+$youtube-about-hover: 60px 27px -60px -27px 20px 23px 132px 99px '../img/sprite.png';
+$youtube-about: 60px 0px -60px 0px 20px 23px 132px 99px '../img/sprite.png';
+$youtube: 84px 0px -84px 0px 19px 23px 132px 99px '../img/sprite.png';
 
 /*
 The provided mixins are intended to be used with the array-like variables

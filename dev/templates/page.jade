@@ -1,0 +1,75 @@
+extends _layout
+block vars
+	- var bodyClass = 'about page';
+block content
+	main.main-content.cf(role="main")
+		.container
+			h1 About Us
+			p.description Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+			.contact-form
+				.message-side
+					p.heading Send us a Message
+					form
+						.message-side__row
+							.message-side__col
+								label(for="name") First name
+								input(type="text" id="name")
+							.message-side__col
+								label(for="lastname") Last name
+								input(type="text" id="lastname")
+						.message-side__row
+							.message-side__col
+								label(for="email") Email
+								input(type="email" id="email")
+							.message-side__col
+								label(for="phone") Phone
+								input(type="text" id="phone")
+						.message-side__txt
+							label(for="message") Message
+							textarea#message
+						input(type="submit")
+				.info-side
+					p.heading Contact Information
+					ul.contacts__list
+						li
+							i.loc
+							p FGMarkets Main Office:<br>Vantu House, 133 Santina<br>Parade, Elluk,Prl Vila, Efata, Vanuatu.
+						li
+							i.phone
+							a(href="tel:44 203-76-91-040") 44 203-76-91-040
+						li
+							i.email
+							a(href="mailto:info@fgmarkets.com") info@fgmarkets.com
+					ul.socials__list
+						li.vk
+							a(href="#")
+						li.fb
+							a(href="#")
+						li.twit
+							a(href="#")
+						li.youtube
+							a(href="#")
+						li.inst
+							a(href="#")
+			p Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dol or in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+		.clients__wrapper
+			.container
+				.clients-slider
+					.swiper-wrapper
+						.swiper-slide
+							img(src="img/client1.png", alt="")
+						.swiper-slide
+							img(src="img/client2.png", alt="")
+						.swiper-slide
+							img(src="img/client3.png", alt="")
+						.swiper-slide
+							img(src="img/client4.png", alt="")
+					.swiper-button-next.clients-arr
+					.swiper-button-prev.clients-arr
+
+
+
+
+
+
+block inlineScripts

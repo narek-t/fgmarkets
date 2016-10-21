@@ -8,8 +8,11 @@ SCSS variables are information about icon's compiled state, stored under its ori
 The large array-like variables contain all information about a single icon
 $icon-home: x y offset_x offset_y width height total_width total_height image_path;
 */
-$footer-fb: 54px 0px -54px 0px 32px 32px 86px 57px '../img/sprite.png';
-$guard2-hover: 0px 0px 0px 0px 50px 57px 86px 57px '../img/sprite.png';
+$fb: 50px 18px -50px -18px 11px 20px 75px 46px '../img/sprite.png';
+$inst: 0px 27px 0px -27px 20px 19px 75px 46px '../img/sprite.png';
+$twit: 23px 0px -23px 0px 23px 18px 75px 46px '../img/sprite.png';
+$vk: 50px 0px -50px 0px 25px 14px 75px 46px '../img/sprite.png';
+$youtube: 0px 0px 0px 0px 19px 23px 75px 46px '../img/sprite.png';
 
 /*
 The provided mixins are intended to be used with the array-like variables
